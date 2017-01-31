@@ -1,0 +1,594 @@
+/* 
+ * Foundation Icons v 3.0
+ * Made by ZURB 2013 http://zurb.com/playground/foundation-icon-fonts-3
+ * MIT License
+ */
+
+@font-face {
+  font-family: "foundation-icons";
+  src: url("foundation-icons.eot");
+  src: url("foundation-icons.eot?#iefix") format("embedded-opentype"),
+       url("foundation-icons.woff") format("woff"),
+       url("foundation-icons.ttf") format("truetype"),
+       url("foundation-icons.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.el-icon-fi-address-book:before,
+.el-icon-fi-alert:before,
+.el-icon-fi-align-center:before,
+.el-icon-fi-align-justify:before,
+.el-icon-fi-align-left:before,
+.el-icon-fi-align-right:before,
+.el-icon-fi-anchor:before,
+.el-icon-fi-annotate:before,
+.el-icon-fi-archive:before,
+.el-icon-fi-arrow-down:before,
+.el-icon-fi-arrow-left:before,
+.el-icon-fi-arrow-right:before,
+.el-icon-fi-arrow-up:before,
+.el-icon-fi-arrows-compress:before,
+.el-icon-fi-arrows-expand:before,
+.el-icon-fi-arrows-in:before,
+.el-icon-fi-arrows-out:before,
+.el-icon-fi-asl:before,
+.el-icon-fi-asterisk:before,
+.el-icon-fi-at-sign:before,
+.el-icon-fi-background-color:before,
+.el-icon-fi-battery-empty:before,
+.el-icon-fi-battery-full:before,
+.el-icon-fi-battery-half:before,
+.el-icon-fi-bitcoin-circle:before,
+.el-icon-fi-bitcoin:before,
+.el-icon-fi-blind:before,
+.el-icon-fi-bluetooth:before,
+.el-icon-fi-bold:before,
+.el-icon-fi-book-bookmark:before,
+.el-icon-fi-book:before,
+.el-icon-fi-bookmark:before,
+.el-icon-fi-braille:before,
+.el-icon-fi-burst-new:before,
+.el-icon-fi-burst-sale:before,
+.el-icon-fi-burst:before,
+.el-icon-fi-calendar:before,
+.el-icon-fi-camera:before,
+.el-icon-fi-check:before,
+.el-icon-fi-checkbox:before,
+.el-icon-fi-clipboard-notes:before,
+.el-icon-fi-clipboard-pencil:before,
+.el-icon-fi-clipboard:before,
+.el-icon-fi-clock:before,
+.el-icon-fi-closed-caption:before,
+.el-icon-fi-cloud:before,
+.el-icon-fi-comment-minus:before,
+.el-icon-fi-comment-quotes:before,
+.el-icon-fi-comment-video:before,
+.el-icon-fi-comment:before,
+.el-icon-fi-comments:before,
+.el-icon-fi-compass:before,
+.el-icon-fi-contrast:before,
+.el-icon-fi-credit-card:before,
+.el-icon-fi-crop:before,
+.el-icon-fi-crown:before,
+.el-icon-fi-css3:before,
+.el-icon-fi-database:before,
+.el-icon-fi-die-five:before,
+.el-icon-fi-die-four:before,
+.el-icon-fi-die-one:before,
+.el-icon-fi-die-six:before,
+.el-icon-fi-die-three:before,
+.el-icon-fi-die-two:before,
+.el-icon-fi-dislike:before,
+.el-icon-fi-dollar-bill:before,
+.el-icon-fi-dollar:before,
+.el-icon-fi-download:before,
+.el-icon-fi-eject:before,
+.el-icon-fi-elevator:before,
+.el-icon-fi-euro:before,
+.el-icon-fi-eye:before,
+.el-icon-fi-fast-forward:before,
+.el-icon-fi-female-symbol:before,
+.el-icon-fi-female:before,
+.el-icon-fi-filter:before,
+.el-icon-fi-first-aid:before,
+.el-icon-fi-flag:before,
+.el-icon-fi-folder-add:before,
+.el-icon-fi-folder-lock:before,
+.el-icon-fi-folder:before,
+.el-icon-fi-foot:before,
+.el-icon-fi-foundation:before,
+.el-icon-fi-graph-bar:before,
+.el-icon-fi-graph-horizontal:before,
+.el-icon-fi-graph-pie:before,
+.el-icon-fi-graph-trend:before,
+.el-icon-fi-guide-dog:before,
+.el-icon-fi-hearing-aid:before,
+.el-icon-fi-heart:before,
+.el-icon-fi-home:before,
+.el-icon-fi-html5:before,
+.el-icon-fi-indent-less:before,
+.el-icon-fi-indent-more:before,
+.el-icon-fi-info:before,
+.el-icon-fi-italic:before,
+.el-icon-fi-key:before,
+.el-icon-fi-laptop:before,
+.el-icon-fi-layout:before,
+.el-icon-fi-lightbulb:before,
+.el-icon-fi-like:before,
+.el-icon-fi-link:before,
+.el-icon-fi-list-bullet:before,
+.el-icon-fi-list-number:before,
+.el-icon-fi-list-thumbnails:before,
+.el-icon-fi-list:before,
+.el-icon-fi-lock:before,
+.el-icon-fi-loop:before,
+.el-icon-fi-magnifying-glass:before,
+.el-icon-fi-mail:before,
+.el-icon-fi-male-female:before,
+.el-icon-fi-male-symbol:before,
+.el-icon-fi-male:before,
+.el-icon-fi-map:before,
+.el-icon-fi-marker:before,
+.el-icon-fi-megaphone:before,
+.el-icon-fi-microphone:before,
+.el-icon-fi-minus-circle:before,
+.el-icon-fi-minus:before,
+.el-icon-fi-mobile-signal:before,
+.el-icon-fi-mobile:before,
+.el-icon-fi-monitor:before,
+.el-icon-fi-mountains:before,
+.el-icon-fi-music:before,
+.el-icon-fi-next:before,
+.el-icon-fi-no-dogs:before,
+.el-icon-fi-no-smoking:before,
+.el-icon-fi-page-add:before,
+.el-icon-fi-page-copy:before,
+.el-icon-fi-page-csv:before,
+.el-icon-fi-page-delete:before,
+.el-icon-fi-page-doc:before,
+.el-icon-fi-page-edit:before,
+.el-icon-fi-page-export-csv:before,
+.el-icon-fi-page-export-doc:before,
+.el-icon-fi-page-export-pdf:before,
+.el-icon-fi-page-export:before,
+.el-icon-fi-page-filled:before,
+.el-icon-fi-page-multiple:before,
+.el-icon-fi-page-pdf:before,
+.el-icon-fi-page-remove:before,
+.el-icon-fi-page-search:before,
+.el-icon-fi-page:before,
+.el-icon-fi-paint-bucket:before,
+.el-icon-fi-paperclip:before,
+.el-icon-fi-pause:before,
+.el-icon-fi-paw:before,
+.el-icon-fi-paypal:before,
+.el-icon-fi-pencil:before,
+.el-icon-fi-photo:before,
+.el-icon-fi-play-circle:before,
+.el-icon-fi-play-video:before,
+.el-icon-fi-play:before,
+.el-icon-fi-plus:before,
+.el-icon-fi-pound:before,
+.el-icon-fi-power:before,
+.el-icon-fi-previous:before,
+.el-icon-fi-price-tag:before,
+.el-icon-fi-pricetag-multiple:before,
+.el-icon-fi-print:before,
+.el-icon-fi-prohibited:before,
+.el-icon-fi-projection-screen:before,
+.el-icon-fi-puzzle:before,
+.el-icon-fi-quote:before,
+.el-icon-fi-record:before,
+.el-icon-fi-refresh:before,
+.el-icon-fi-results-demographics:before,
+.el-icon-fi-results:before,
+.el-icon-fi-rewind-ten:before,
+.el-icon-fi-rewind:before,
+.el-icon-fi-rss:before,
+.el-icon-fi-safety-cone:before,
+.el-icon-fi-save:before,
+.el-icon-fi-share:before,
+.el-icon-fi-sheriff-badge:before,
+.el-icon-fi-shield:before,
+.el-icon-fi-shopping-bag:before,
+.el-icon-fi-shopping-cart:before,
+.el-icon-fi-shuffle:before,
+.el-icon-fi-skull:before,
+.el-icon-fi-social-500px:before,
+.el-icon-fi-social-adobe:before,
+.el-icon-fi-social-amazon:before,
+.el-icon-fi-social-android:before,
+.el-icon-fi-social-apple:before,
+.el-icon-fi-social-behance:before,
+.el-icon-fi-social-bing:before,
+.el-icon-fi-social-blogger:before,
+.el-icon-fi-social-delicious:before,
+.el-icon-fi-social-designer-news:before,
+.el-icon-fi-social-deviant-art:before,
+.el-icon-fi-social-digg:before,
+.el-icon-fi-social-dribbble:before,
+.el-icon-fi-social-drive:before,
+.el-icon-fi-social-dropbox:before,
+.el-icon-fi-social-evernote:before,
+.el-icon-fi-social-facebook:before,
+.el-icon-fi-social-flickr:before,
+.el-icon-fi-social-forrst:before,
+.el-icon-fi-social-foursquare:before,
+.el-icon-fi-social-game-center:before,
+.el-icon-fi-social-github:before,
+.el-icon-fi-social-google-plus:before,
+.el-icon-fi-social-hacker-news:before,
+.el-icon-fi-social-hi5:before,
+.el-icon-fi-social-instagram:before,
+.el-icon-fi-social-joomla:before,
+.el-icon-fi-social-lastfm:before,
+.el-icon-fi-social-linkedin:before,
+.el-icon-fi-social-medium:before,
+.el-icon-fi-social-myspace:before,
+.el-icon-fi-social-orkut:before,
+.el-icon-fi-social-path:before,
+.el-icon-fi-social-picasa:before,
+.el-icon-fi-social-pinterest:before,
+.el-icon-fi-social-rdio:before,
+.el-icon-fi-social-reddit:before,
+.el-icon-fi-social-skillshare:before,
+.el-icon-fi-social-skype:before,
+.el-icon-fi-social-smashing-mag:before,
+.el-icon-fi-social-snapchat:before,
+.el-icon-fi-social-spotify:before,
+.el-icon-fi-social-squidoo:before,
+.el-icon-fi-social-stack-overflow:before,
+.el-icon-fi-social-steam:before,
+.el-icon-fi-social-stumbleupon:before,
+.el-icon-fi-social-treehouse:before,
+.el-icon-fi-social-tumblr:before,
+.el-icon-fi-social-twitter:before,
+.el-icon-fi-social-vimeo:before,
+.el-icon-fi-social-windows:before,
+.el-icon-fi-social-xbox:before,
+.el-icon-fi-social-yahoo:before,
+.el-icon-fi-social-yelp:before,
+.el-icon-fi-social-youtube:before,
+.el-icon-fi-social-zerply:before,
+.el-icon-fi-social-zurb:before,
+.el-icon-fi-sound:before,
+.el-icon-fi-star:before,
+.el-icon-fi-stop:before,
+.el-icon-fi-strikethrough:before,
+.el-icon-fi-subscript:before,
+.el-icon-fi-superscript:before,
+.el-icon-fi-tablet-landscape:before,
+.el-icon-fi-tablet-portrait:before,
+.el-icon-fi-target-two:before,
+.el-icon-fi-target:before,
+.el-icon-fi-telephone-accessible:before,
+.el-icon-fi-telephone:before,
+.el-icon-fi-text-color:before,
+.el-icon-fi-thumbnails:before,
+.el-icon-fi-ticket:before,
+.el-icon-fi-torso-business:before,
+.el-icon-fi-torso-female:before,
+.el-icon-fi-torso:before,
+.el-icon-fi-torsos-all-female:before,
+.el-icon-fi-torsos-all:before,
+.el-icon-fi-torsos-female-male:before,
+.el-icon-fi-torsos-male-female:before,
+.el-icon-fi-torsos:before,
+.el-icon-fi-trash:before,
+.el-icon-fi-trees:before,
+.el-icon-fi-trophy:before,
+.el-icon-fi-underline:before,
+.el-icon-fi-universal-access:before,
+.el-icon-fi-unlink:before,
+.el-icon-fi-unlock:before,
+.el-icon-fi-upload-cloud:before,
+.el-icon-fi-upload:before,
+.el-icon-fi-usb:before,
+.el-icon-fi-video:before,
+.el-icon-fi-volume-none:before,
+.el-icon-fi-volume-strike:before,
+.el-icon-fi-volume:before,
+.el-icon-fi-web:before,
+.el-icon-fi-wheelchair:before,
+.el-icon-fi-widget:before,
+.el-icon-fi-wrench:before,
+.el-icon-fi-x-circle:before,
+.el-icon-fi-x:before,
+.el-icon-fi-yen:before,
+.el-icon-fi-zoom-in:before,
+.el-icon-fi-zoom-out:before {
+  font-family: "foundation-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+.el-icon-fi-address-book:before { content: "\f100"; }
+.el-icon-fi-alert:before { content: "\f101"; }
+.el-icon-fi-align-center:before { content: "\f102"; }
+.el-icon-fi-align-justify:before { content: "\f103"; }
+.el-icon-fi-align-left:before { content: "\f104"; }
+.el-icon-fi-align-right:before { content: "\f105"; }
+.el-icon-fi-anchor:before { content: "\f106"; }
+.el-icon-fi-annotate:before { content: "\f107"; }
+.el-icon-fi-archive:before { content: "\f108"; }
+.el-icon-fi-arrow-down:before { content: "\f109"; }
+.el-icon-fi-arrow-left:before { content: "\f10a"; }
+.el-icon-fi-arrow-right:before { content: "\f10b"; }
+.el-icon-fi-arrow-up:before { content: "\f10c"; }
+.el-icon-fi-arrows-compress:before { content: "\f10d"; }
+.el-icon-fi-arrows-expand:before { content: "\f10e"; }
+.el-icon-fi-arrows-in:before { content: "\f10f"; }
+.el-icon-fi-arrows-out:before { content: "\f110"; }
+.el-icon-fi-asl:before { content: "\f111"; }
+.el-icon-fi-asterisk:before { content: "\f112"; }
+.el-icon-fi-at-sign:before { content: "\f113"; }
+.el-icon-fi-background-color:before { content: "\f114"; }
+.el-icon-fi-battery-empty:before { content: "\f115"; }
+.el-icon-fi-battery-full:before { content: "\f116"; }
+.el-icon-fi-battery-half:before { content: "\f117"; }
+.el-icon-fi-bitcoin-circle:before { content: "\f118"; }
+.el-icon-fi-bitcoin:before { content: "\f119"; }
+.el-icon-fi-blind:before { content: "\f11a"; }
+.el-icon-fi-bluetooth:before { content: "\f11b"; }
+.el-icon-fi-bold:before { content: "\f11c"; }
+.el-icon-fi-book-bookmark:before { content: "\f11d"; }
+.el-icon-fi-book:before { content: "\f11e"; }
+.el-icon-fi-bookmark:before { content: "\f11f"; }
+.el-icon-fi-braille:before { content: "\f120"; }
+.el-icon-fi-burst-new:before { content: "\f121"; }
+.el-icon-fi-burst-sale:before { content: "\f122"; }
+.el-icon-fi-burst:before { content: "\f123"; }
+.el-icon-fi-calendar:before { content: "\f124"; }
+.el-icon-fi-camera:before { content: "\f125"; }
+.el-icon-fi-check:before { content: "\f126"; }
+.el-icon-fi-checkbox:before { content: "\f127"; }
+.el-icon-fi-clipboard-notes:before { content: "\f128"; }
+.el-icon-fi-clipboard-pencil:before { content: "\f129"; }
+.el-icon-fi-clipboard:before { content: "\f12a"; }
+.el-icon-fi-clock:before { content: "\f12b"; }
+.el-icon-fi-closed-caption:before { content: "\f12c"; }
+.el-icon-fi-cloud:before { content: "\f12d"; }
+.el-icon-fi-comment-minus:before { content: "\f12e"; }
+.el-icon-fi-comment-quotes:before { content: "\f12f"; }
+.el-icon-fi-comment-video:before { content: "\f130"; }
+.el-icon-fi-comment:before { content: "\f131"; }
+.el-icon-fi-comments:before { content: "\f132"; }
+.el-icon-fi-compass:before { content: "\f133"; }
+.el-icon-fi-contrast:before { content: "\f134"; }
+.el-icon-fi-credit-card:before { content: "\f135"; }
+.el-icon-fi-crop:before { content: "\f136"; }
+.el-icon-fi-crown:before { content: "\f137"; }
+.el-icon-fi-css3:before { content: "\f138"; }
+.el-icon-fi-database:before { content: "\f139"; }
+.el-icon-fi-die-five:before { content: "\f13a"; }
+.el-icon-fi-die-four:before { content: "\f13b"; }
+.el-icon-fi-die-one:before { content: "\f13c"; }
+.el-icon-fi-die-six:before { content: "\f13d"; }
+.el-icon-fi-die-three:before { content: "\f13e"; }
+.el-icon-fi-die-two:before { content: "\f13f"; }
+.el-icon-fi-dislike:before { content: "\f140"; }
+.el-icon-fi-dollar-bill:before { content: "\f141"; }
+.el-icon-fi-dollar:before { content: "\f142"; }
+.el-icon-fi-download:before { content: "\f143"; }
+.el-icon-fi-eject:before { content: "\f144"; }
+.el-icon-fi-elevator:before { content: "\f145"; }
+.el-icon-fi-euro:before { content: "\f146"; }
+.el-icon-fi-eye:before { content: "\f147"; }
+.el-icon-fi-fast-forward:before { content: "\f148"; }
+.el-icon-fi-female-symbol:before { content: "\f149"; }
+.el-icon-fi-female:before { content: "\f14a"; }
+.el-icon-fi-filter:before { content: "\f14b"; }
+.el-icon-fi-first-aid:before { content: "\f14c"; }
+.el-icon-fi-flag:before { content: "\f14d"; }
+.el-icon-fi-folder-add:before { content: "\f14e"; }
+.el-icon-fi-folder-lock:before { content: "\f14f"; }
+.el-icon-fi-folder:before { content: "\f150"; }
+.el-icon-fi-foot:before { content: "\f151"; }
+.el-icon-fi-foundation:before { content: "\f152"; }
+.el-icon-fi-graph-bar:before { content: "\f153"; }
+.el-icon-fi-graph-horizontal:before { content: "\f154"; }
+.el-icon-fi-graph-pie:before { content: "\f155"; }
+.el-icon-fi-graph-trend:before { content: "\f156"; }
+.el-icon-fi-guide-dog:before { content: "\f157"; }
+.el-icon-fi-hearing-aid:before { content: "\f158"; }
+.el-icon-fi-heart:before { content: "\f159"; }
+.el-icon-fi-home:before { content: "\f15a"; }
+.el-icon-fi-html5:before { content: "\f15b"; }
+.el-icon-fi-indent-less:before { content: "\f15c"; }
+.el-icon-fi-indent-more:before { content: "\f15d"; }
+.el-icon-fi-info:before { content: "\f15e"; }
+.el-icon-fi-italic:before { content: "\f15f"; }
+.el-icon-fi-key:before { content: "\f160"; }
+.el-icon-fi-laptop:before { content: "\f161"; }
+.el-icon-fi-layout:before { content: "\f162"; }
+.el-icon-fi-lightbulb:before { content: "\f163"; }
+.el-icon-fi-like:before { content: "\f164"; }
+.el-icon-fi-link:before { content: "\f165"; }
+.el-icon-fi-list-bullet:before { content: "\f166"; }
+.el-icon-fi-list-number:before { content: "\f167"; }
+.el-icon-fi-list-thumbnails:before { content: "\f168"; }
+.el-icon-fi-list:before { content: "\f169"; }
+.el-icon-fi-lock:before { content: "\f16a"; }
+.el-icon-fi-loop:before { content: "\f16b"; }
+.el-icon-fi-magnifying-glass:before { content: "\f16c"; }
+.el-icon-fi-mail:before { content: "\f16d"; }
+.el-icon-fi-male-female:before { content: "\f16e"; }
+.el-icon-fi-male-symbol:before { content: "\f16f"; }
+.el-icon-fi-male:before { content: "\f170"; }
+.el-icon-fi-map:before { content: "\f171"; }
+.el-icon-fi-marker:before { content: "\f172"; }
+.el-icon-fi-megaphone:before { content: "\f173"; }
+.el-icon-fi-microphone:before { content: "\f174"; }
+.el-icon-fi-minus-circle:before { content: "\f175"; }
+.el-icon-fi-minus:before { content: "\f176"; }
+.el-icon-fi-mobile-signal:before { content: "\f177"; }
+.el-icon-fi-mobile:before { content: "\f178"; }
+.el-icon-fi-monitor:before { content: "\f179"; }
+.el-icon-fi-mountains:before { content: "\f17a"; }
+.el-icon-fi-music:before { content: "\f17b"; }
+.el-icon-fi-next:before { content: "\f17c"; }
+.el-icon-fi-no-dogs:before { content: "\f17d"; }
+.el-icon-fi-no-smoking:before { content: "\f17e"; }
+.el-icon-fi-page-add:before { content: "\f17f"; }
+.el-icon-fi-page-copy:before { content: "\f180"; }
+.el-icon-fi-page-csv:before { content: "\f181"; }
+.el-icon-fi-page-delete:before { content: "\f182"; }
+.el-icon-fi-page-doc:before { content: "\f183"; }
+.el-icon-fi-page-edit:before { content: "\f184"; }
+.el-icon-fi-page-export-csv:before { content: "\f185"; }
+.el-icon-fi-page-export-doc:before { content: "\f186"; }
+.el-icon-fi-page-export-pdf:before { content: "\f187"; }
+.el-icon-fi-page-export:before { content: "\f188"; }
+.el-icon-fi-page-filled:before { content: "\f189"; }
+.el-icon-fi-page-multiple:before { content: "\f18a"; }
+.el-icon-fi-page-pdf:before { content: "\f18b"; }
+.el-icon-fi-page-remove:before { content: "\f18c"; }
+.el-icon-fi-page-search:before { content: "\f18d"; }
+.el-icon-fi-page:before { content: "\f18e"; }
+.el-icon-fi-paint-bucket:before { content: "\f18f"; }
+.el-icon-fi-paperclip:before { content: "\f190"; }
+.el-icon-fi-pause:before { content: "\f191"; }
+.el-icon-fi-paw:before { content: "\f192"; }
+.el-icon-fi-paypal:before { content: "\f193"; }
+.el-icon-fi-pencil:before { content: "\f194"; }
+.el-icon-fi-photo:before { content: "\f195"; }
+.el-icon-fi-play-circle:before { content: "\f196"; }
+.el-icon-fi-play-video:before { content: "\f197"; }
+.el-icon-fi-play:before { content: "\f198"; }
+.el-icon-fi-plus:before { content: "\f199"; }
+.el-icon-fi-pound:before { content: "\f19a"; }
+.el-icon-fi-power:before { content: "\f19b"; }
+.el-icon-fi-previous:before { content: "\f19c"; }
+.el-icon-fi-price-tag:before { content: "\f19d"; }
+.el-icon-fi-pricetag-multiple:before { content: "\f19e"; }
+.el-icon-fi-print:before { content: "\f19f"; }
+.el-icon-fi-prohibited:before { content: "\f1a0"; }
+.el-icon-fi-projection-screen:before { content: "\f1a1"; }
+.el-icon-fi-puzzle:before { content: "\f1a2"; }
+.el-icon-fi-quote:before { content: "\f1a3"; }
+.el-icon-fi-record:before { content: "\f1a4"; }
+.el-icon-fi-refresh:before { content: "\f1a5"; }
+.el-icon-fi-results-demographics:before { content: "\f1a6"; }
+.el-icon-fi-results:before { content: "\f1a7"; }
+.el-icon-fi-rewind-ten:before { content: "\f1a8"; }
+.el-icon-fi-rewind:before { content: "\f1a9"; }
+.el-icon-fi-rss:before { content: "\f1aa"; }
+.el-icon-fi-safety-cone:before { content: "\f1ab"; }
+.el-icon-fi-save:before { content: "\f1ac"; }
+.el-icon-fi-share:before { content: "\f1ad"; }
+.el-icon-fi-sheriff-badge:before { content: "\f1ae"; }
+.el-icon-fi-shield:before { content: "\f1af"; }
+.el-icon-fi-shopping-bag:before { content: "\f1b0"; }
+.el-icon-fi-shopping-cart:before { content: "\f1b1"; }
+.el-icon-fi-shuffle:before { content: "\f1b2"; }
+.el-icon-fi-skull:before { content: "\f1b3"; }
+.el-icon-fi-social-500px:before { content: "\f1b4"; }
+.el-icon-fi-social-adobe:before { content: "\f1b5"; }
+.el-icon-fi-social-amazon:before { content: "\f1b6"; }
+.el-icon-fi-social-android:before { content: "\f1b7"; }
+.el-icon-fi-social-apple:before { content: "\f1b8"; }
+.el-icon-fi-social-behance:before { content: "\f1b9"; }
+.el-icon-fi-social-bing:before { content: "\f1ba"; }
+.el-icon-fi-social-blogger:before { content: "\f1bb"; }
+.el-icon-fi-social-delicious:before { content: "\f1bc"; }
+.el-icon-fi-social-designer-news:before { content: "\f1bd"; }
+.el-icon-fi-social-deviant-art:before { content: "\f1be"; }
+.el-icon-fi-social-digg:before { content: "\f1bf"; }
+.el-icon-fi-social-dribbble:before { content: "\f1c0"; }
+.el-icon-fi-social-drive:before { content: "\f1c1"; }
+.el-icon-fi-social-dropbox:before { content: "\f1c2"; }
+.el-icon-fi-social-evernote:before { content: "\f1c3"; }
+.el-icon-fi-social-facebook:before { content: "\f1c4"; }
+.el-icon-fi-social-flickr:before { content: "\f1c5"; }
+.el-icon-fi-social-forrst:before { content: "\f1c6"; }
+.el-icon-fi-social-foursquare:before { content: "\f1c7"; }
+.el-icon-fi-social-game-center:before { content: "\f1c8"; }
+.el-icon-fi-social-github:before { content: "\f1c9"; }
+.el-icon-fi-social-google-plus:before { content: "\f1ca"; }
+.el-icon-fi-social-hacker-news:before { content: "\f1cb"; }
+.el-icon-fi-social-hi5:before { content: "\f1cc"; }
+.el-icon-fi-social-instagram:before { content: "\f1cd"; }
+.el-icon-fi-social-joomla:before { content: "\f1ce"; }
+.el-icon-fi-social-lastfm:before { content: "\f1cf"; }
+.el-icon-fi-social-linkedin:before { content: "\f1d0"; }
+.el-icon-fi-social-medium:before { content: "\f1d1"; }
+.el-icon-fi-social-myspace:before { content: "\f1d2"; }
+.el-icon-fi-social-orkut:before { content: "\f1d3"; }
+.el-icon-fi-social-path:before { content: "\f1d4"; }
+.el-icon-fi-social-picasa:before { content: "\f1d5"; }
+.el-icon-fi-social-pinterest:before { content: "\f1d6"; }
+.el-icon-fi-social-rdio:before { content: "\f1d7"; }
+.el-icon-fi-social-reddit:before { content: "\f1d8"; }
+.el-icon-fi-social-skillshare:before { content: "\f1d9"; }
+.el-icon-fi-social-skype:before { content: "\f1da"; }
+.el-icon-fi-social-smashing-mag:before { content: "\f1db"; }
+.el-icon-fi-social-snapchat:before { content: "\f1dc"; }
+.el-icon-fi-social-spotify:before { content: "\f1dd"; }
+.el-icon-fi-social-squidoo:before { content: "\f1de"; }
+.el-icon-fi-social-stack-overflow:before { content: "\f1df"; }
+.el-icon-fi-social-steam:before { content: "\f1e0"; }
+.el-icon-fi-social-stumbleupon:before { content: "\f1e1"; }
+.el-icon-fi-social-treehouse:before { content: "\f1e2"; }
+.el-icon-fi-social-tumblr:before { content: "\f1e3"; }
+.el-icon-fi-social-twitter:before { content: "\f1e4"; }
+.el-icon-fi-social-vimeo:before { content: "\f1e5"; }
+.el-icon-fi-social-windows:before { content: "\f1e6"; }
+.el-icon-fi-social-xbox:before { content: "\f1e7"; }
+.el-icon-fi-social-yahoo:before { content: "\f1e8"; }
+.el-icon-fi-social-yelp:before { content: "\f1e9"; }
+.el-icon-fi-social-youtube:before { content: "\f1ea"; }
+.el-icon-fi-social-zerply:before { content: "\f1eb"; }
+.el-icon-fi-social-zurb:before { content: "\f1ec"; }
+.el-icon-fi-sound:before { content: "\f1ed"; }
+.el-icon-fi-star:before { content: "\f1ee"; }
+.el-icon-fi-stop:before { content: "\f1ef"; }
+.el-icon-fi-strikethrough:before { content: "\f1f0"; }
+.el-icon-fi-subscript:before { content: "\f1f1"; }
+.el-icon-fi-superscript:before { content: "\f1f2"; }
+.el-icon-fi-tablet-landscape:before { content: "\f1f3"; }
+.el-icon-fi-tablet-portrait:before { content: "\f1f4"; }
+.el-icon-fi-target-two:before { content: "\f1f5"; }
+.el-icon-fi-target:before { content: "\f1f6"; }
+.el-icon-fi-telephone-accessible:before { content: "\f1f7"; }
+.el-icon-fi-telephone:before { content: "\f1f8"; }
+.el-icon-fi-text-color:before { content: "\f1f9"; }
+.el-icon-fi-thumbnails:before { content: "\f1fa"; }
+.el-icon-fi-ticket:before { content: "\f1fb"; }
+.el-icon-fi-torso-business:before { content: "\f1fc"; }
+.el-icon-fi-torso-female:before { content: "\f1fd"; }
+.el-icon-fi-torso:before { content: "\f1fe"; }
+.el-icon-fi-torsos-all-female:before { content: "\f1ff"; }
+.el-icon-fi-torsos-all:before { content: "\f200"; }
+.el-icon-fi-torsos-female-male:before { content: "\f201"; }
+.el-icon-fi-torsos-male-female:before { content: "\f202"; }
+.el-icon-fi-torsos:before { content: "\f203"; }
+.el-icon-fi-trash:before { content: "\f204"; }
+.el-icon-fi-trees:before { content: "\f205"; }
+.el-icon-fi-trophy:before { content: "\f206"; }
+.el-icon-fi-underline:before { content: "\f207"; }
+.el-icon-fi-universal-access:before { content: "\f208"; }
+.el-icon-fi-unlink:before { content: "\f209"; }
+.el-icon-fi-unlock:before { content: "\f20a"; }
+.el-icon-fi-upload-cloud:before { content: "\f20b"; }
+.el-icon-fi-upload:before { content: "\f20c"; }
+.el-icon-fi-usb:before { content: "\f20d"; }
+.el-icon-fi-video:before { content: "\f20e"; }
+.el-icon-fi-volume-none:before { content: "\f20f"; }
+.el-icon-fi-volume-strike:before { content: "\f210"; }
+.el-icon-fi-volume:before { content: "\f211"; }
+.el-icon-fi-web:before { content: "\f212"; }
+.el-icon-fi-wheelchair:before { content: "\f213"; }
+.el-icon-fi-widget:before { content: "\f214"; }
+.el-icon-fi-wrench:before { content: "\f215"; }
+.el-icon-fi-x-circle:before { content: "\f216"; }
+.el-icon-fi-x:before { content: "\f217"; }
+.el-icon-fi-yen:before { content: "\f218"; }
+.el-icon-fi-zoom-in:before { content: "\f219"; }
+.el-icon-fi-zoom-out:before { content: "\f21a"; }
